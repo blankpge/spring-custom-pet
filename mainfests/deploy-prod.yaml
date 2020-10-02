@@ -25,7 +25,7 @@ spec:
               value: petclinic-prod-mysql
             - name: SPRING_PROFILES_ACTIVE
               value: mysql
-          image: harbor.pks.pivot.host/tybritten/spring-petclinic
+          image: harbor.pgottam-demo.live/demobuild/spring-petclinic
           imagePullPolicy: Always
           name: petclinic-prod
       imagePullSecrets:
